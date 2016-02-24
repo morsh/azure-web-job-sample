@@ -1,0 +1,9 @@
+{
+  "name": "azure-web-job-sample",
+  "version": "0.0.0",
+  "main": "app.js",
+  "author": {
+    "name": "mor shemesh",
+    "email": "morshe@microsoft.com"
+  }
+}
