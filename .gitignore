@@ -30,7 +30,6 @@ build/Release
 
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
-node_modules
 public/bower_components
 
 # secrets
@@ -278,11 +277,9 @@ ClientBin/
 *.dbproj.schemaview
 *.pfx
 *.publishsettings
-node_modules/
-!NodeWorkersEditor/node_modules/
-!NodeWorkersEditor/test/node_modules/
-NodeWorkersEditor/node_modules/*
-!NodeWorkersEditor/node_modules/x-*
+node_modules/*
+!node_modules/x-*
+!node_modules/azure-logging
 orleans.codegen.cs
 
 # RIA/Silverlight projects
