@@ -1,1 +1,0 @@
-console.log("the simplest Node.js application someone has ever written");
