@@ -1,1 +1,3 @@
-console.log("the simplest Node.js application someone has ever written");
+setInterval(function () {
+  console.log("2 seconds have passed...");
+}, 2000);
