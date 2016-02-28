@@ -1,4 +1,4 @@
-var workerName = 'query-id';//process.env.WORKER;
+var workerName = process.env.PIPELINE_ROLE;
 
 console.log('Selected worker according to environment variable:', workerName);
 
